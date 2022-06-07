@@ -1,87 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans:wght@400;600&display=swap');
+* {
+    padding: 0px;
+    margin: 4px;
+}
 
 .va {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 html {
-  font-family: 'Nunito Sans', sans-serif;
-  color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
 }
 
 a {
-  color: #3b7adf;
+    color: #3b7adf;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #3b7adf;
+    text-decoration: underline;
+    color: #3b7adf;
 }
 
 hr {
-  background: #24272c;
+    background: #24272c;
 }
 
 .hero {
-  background: #eceef1;
+    background: #eceef1;
 }
 
 .title,
 .subtitle {
-  color: rgb(13, 13, 13);
+    color: rgb(13, 13, 13);
 }
 
 .navbar .navbar-item {
-  color: #190af3;
+    color: #190af3;
 }
 
 .navbar .navbar-item.is-active {
-  color: #190af3;
-  font-weight: 700;
+    color: #190af3;
+    font-weight: 700;
 }
 
 .navbar .navbar-item:hover {
-  background: transparent;
-  color: white;
+    background: transparent;
+    color: white;
 }
 
 .navbar .navbar-item a {
-  margin-left: 1rem;
-  color: #190af3;
+    margin-left: 1rem;
+    color: #190af3;
 }
 
 .blog-posts {
-  min-height: 100vh;
-  background: white;
-  padding-top: 4rem;
-  padding-bottom: 10rem;
+    min-height: 100vh;
+    background: white;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
 }
 
 .blog-posts article {
-  padding: 1.5rem;
+    padding: 1.5rem;
 }
 
 .blog-posts .post img {
-  border-radius: 6px;
+    border-radius: 6px;
 }
 
 .blog-posts .post .post-category {
-  color: #3b7adf;
+    color: #3b7adf;
 }
 
 .blog-posts .post .post-title {
-  font-size: 2.2rem;
+    font-size: 2.2rem;
 }
 
 .blog-posts .post .post-excerpt {
-  line-height: 1.5rem;
-  letter-spacing: .03rem;
-  font-size: 1.2rem;
-  font-family: 'IBM Plex Serif', serif;
-  color: #92a3ab;
+    line-height: 1.5rem;
+    letter-spacing: .03rem;
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Serif', serif;
+    color: #92a3ab;
 }
 
 .blog-posts .post .featured .featured-image img {
-  height: 380px;
+    height: 380px;
 }

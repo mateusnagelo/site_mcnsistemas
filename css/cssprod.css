@@ -84,3 +84,7 @@ hr {
 .blog-posts .post .featured .featured-image img {
     height: 380px;
 }
+
+footer.footer {
+    color: #190af3;
+}

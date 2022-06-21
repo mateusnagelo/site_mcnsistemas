@@ -89,3 +89,19 @@ hr {
 .blog-posts .post .featured .featured-image img {
     height: 380px;
 }
+
+.prod {
+    display: flex;
+}
+
+.desknuvens {
+    width: 20rem;
+}
+
+.vanilla-img {
+    width: 20rem;
+}
+
+.akura-img {
+    width: 21rem;
+}

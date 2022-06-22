@@ -25,10 +25,13 @@ a:hover {
 
 hr {
     background: #24272c;
+    /* width: 100%;
+    margin-left: 1, 5rem; */
 }
 
 .hero {
     background: #eceef1;
+    max-width: 100%;
 }
 
 .title,
@@ -90,18 +93,54 @@ hr {
     height: 380px;
 }
 
-.prod {
+
+/* .prod {
     display: flex;
-}
+} */
 
 .desknuvens {
     width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .vanilla-img {
     width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 768px;
 }
 
 .akura-img {
     width: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 768px;
 }
+
+.hero-body {
+    /* background-color: aqua; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+/* @media(max-width: 768px) {
+    .prod {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
+
+.downloads {
+    padding-left: 4rem;
+} */
+
+
+/* .hero-body {
+    width: 100%;
+} */

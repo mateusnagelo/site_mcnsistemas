@@ -121,6 +121,11 @@ hr {
     max-height: 768px;
 }
 
+.column.post.is-4.akura {
+    display: flex;
+    /* background: #3b7adf; */
+}
+
 
 /* .hero-body { */
 

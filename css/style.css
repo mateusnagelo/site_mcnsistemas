@@ -153,3 +153,18 @@ hr {
 /* .hero-body {
     width: 100%;
 } */
+
+@media screen and (max-width: 1024px) {
+    .navbar,
+    .navbar-end,
+    .navbar-menu,
+    .navbar-start {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+    .navbar-end {
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+}

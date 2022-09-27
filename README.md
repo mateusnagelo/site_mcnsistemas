@@ -1,7 +1,9 @@
-<img srv="./img/site-mcn.png"/>
+<img src="./img/site-mcn.png"/>
 
 
 
 
 
-# SITE MCN SISTEMAS BOM JESUS DA LAPA #
+# SITE MCN SISTEMAS DE BOM JESUS DA LAPA #
+
+SITE CRIADO COM FRAMEWORK BULMA.

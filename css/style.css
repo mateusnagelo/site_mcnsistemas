@@ -126,6 +126,22 @@ hr {
     /* background: #3b7adf; */
 }
 
+#back-to-top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: .6rem;
+    padding: 1rem;
+    display: block;
+    cursor: pointer;
+    color: #ffff;
+}
+
+
+/* the end button topo  */
+
 
 /* .hero-body { */
 

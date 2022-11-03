@@ -17,4 +17,3 @@ function controlarBotao() {
     }
 }
 window.addEventListener("scroll", controlarBotao);
-console.log(deucerto)

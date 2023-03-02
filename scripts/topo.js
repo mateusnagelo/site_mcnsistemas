@@ -21,6 +21,30 @@
 
 // FUNCAO QUE PARA FAZER COM QUE O BOTAO SUMA QUANDO A POSICAO Y DO SCROLL ESTIVER EM 0
 
+// function scrollBar() {
+//     window.scrollTo({
+//       top: 0,
+//       behavior: 'smooth',
+//     });
+//   }
+  
+//   function controlarBotao() {
+//     if (window.scrollY === 0) {
+//       const botaoVoltarTopo = document.querySelector("#back-to-top");
+//       if (botaoVoltarTopo) {
+//         botaoVoltarTopo.style.display = 'none';
+//       }
+//     } else {
+//       const botaoVoltarTopo = document.querySelector("#back-to-top");
+//       if (botaoVoltarTopo) {
+//         botaoVoltarTopo.style.display = 'block';
+//       }
+//     }
+//   }
+  
+//   window.addEventListener("scroll", controlarBotao);
+  
+
 function scrollBar() {
     window.scrollTo({
       top: 0,
@@ -29,16 +53,13 @@ function scrollBar() {
   }
   
   function controlarBotao() {
-    if (window.scrollY === 0) {
-      const botaoVoltarTopo = document.querySelector("#back-to-top");
-      if (botaoVoltarTopo) {
-        botaoVoltarTopo.style.display = 'none';
-      }
+    const botaoVoltarTopo = document.querySelector("#back-to-top");
+    if (!botaoVoltarTopo) return; // Verifica se o botão existe no documento HTML
+  
+    if (window.scrollY > window.innerHeight) { // Verifica se a posição atual de rolagem é maior que a altura da janela
+      botaoVoltarTopo.style.display = 'block';
     } else {
-      const botaoVoltarTopo = document.querySelector("#back-to-top");
-      if (botaoVoltarTopo) {
-        botaoVoltarTopo.style.display = 'block';
-      }
+      botaoVoltarTopo.style.display = 'none';
     }
   }
   

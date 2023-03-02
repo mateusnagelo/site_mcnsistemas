@@ -185,3 +185,14 @@ hr {
         justify-content: flex-end !important;
     }
 }
+
+
+/* button ibptax */
+.ibptax-button{
+    font-size: 1.6rem;
+    padding: 10px 30px;
+    color: #ffff;
+    background-color:#3b7adf;
+    border-radius: 8px;
+    cursor: pointer;
+}
